@@ -1,0 +1,37 @@
+.flex {
+    display: flex;
+    min-height: 100px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    max-width: 2000px
+}
+
+.box_box {
+    padding: 0px 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 50px 50px;
+    margin: 0px 500px 0px 300px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 50px 50px;
+    font-size: 3.5mm;
+    padding: 20px 0px 0px 20px;
+    border: 1px solid black;
+    font-weight: 550;
+    color: rgb(173, 0, 0);
+    text-align: center;
+}
+
+.box {
+    border: 1px solid black;
+    padding: 20px 0px 0px 20px;
+    font-size: 4.5mm;
+}

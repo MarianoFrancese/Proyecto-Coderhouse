@@ -1,0 +1,17 @@
+.boton {
+    height: 40px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+    background-color: #ED1C2E;
+    margin: 10px 20px;
+    padding: 10px 10px 20px 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    line-height: 1.42857143;
+    text-align:center;
+    border-radius: 25%;
+    transform: scale(1.5,1.5);
+}

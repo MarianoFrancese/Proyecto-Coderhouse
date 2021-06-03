@@ -1,0 +1,32 @@
+$border-color: crimson;
+
+.bordesPagina {
+    @if $border-color == crimson {
+        border-width: 10px;
+        border-style: inset;
+        border-radius: 10%;
+        background-color:white;
+        animation-duration: 2s;
+        animation-name: aparecer;
+        border-color: crimson;
+    } @else if $border-color == orangered {
+        border-width: 10px;
+        border-style: inset;
+        border-radius: 10%;
+        background-color:white;
+    } @else if $border-color == lightskyblue {
+        border-width: 10px;
+        border-style: inset;
+        border-radius: 10%;
+        background-color:white;
+    }
+}
+
+@mixin color-invertido ($border-color, $border-width, $border-style, $border-radius, $background-color, $height) {
+    border-color: $border-color;
+    border-width: $border-width;
+    border-style: $border-style;
+    border-radius: $border-radius;
+    background-color: $background-color;
+    height: $height;
+}

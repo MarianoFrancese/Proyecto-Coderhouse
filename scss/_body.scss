@@ -1,0 +1,89 @@
+body {
+    font-family:cursive;
+    font-weight:bolder;
+    background-color: lightgreen;
+}
+
+header h1 {
+    color: darkblue;
+    font-style:italic;
+    font-size: 15mm;
+    text-align: center;
+    word-spacing: 35px;
+    letter-spacing: 5px;
+}
+
+h2 {
+    color: black;
+    font-size: 10mm;
+    font-weight: bold;
+}
+
+h3 {
+    color: darkblue;
+    font-size: 12mm;
+    font-weight: lighter;
+    @include color-invertido (darkblue, 10px, inset, 10%, white, 120px);
+}
+
+h4 {
+    color: black;
+    font-size: 5.5mm;
+    font-weight: bold;
+}
+
+h5 {
+    color:orangered;
+    font-size: 6mm;
+    font-weight: bold;
+}
+
+section {
+    font-size: 15px;
+}
+
+
+#subtitulo {
+
+    font-size: 7mm;
+    text-align: center;
+}
+
+#input {
+    width: 10cm;
+    height: 1cm;
+    font-size: 0.5cm;
+}
+
+#bodySubpaginas {
+    text-align: center;
+    font-size: 4.5mm;
+    font-weight:bold;
+
+}
+
+span {
+    display: inline-block;
+    width: 200px;
+    padding: 30px 50px;
+}
+
+div {
+    font-size: 3.5mm;
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+.row {
+  background-color: aqua;
+  border: 1px solid black;
+  height: 5mm;
+}
