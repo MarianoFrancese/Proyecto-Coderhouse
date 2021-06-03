@@ -1,0 +1,216 @@
+.bordesPagina {
+  border-width: 10px;
+  border-style: inset;
+  border-radius: 10%;
+  background-color: white;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+  border-color: crimson;
+}
+
+body {
+  font-family: cursive;
+  font-weight: bolder;
+  background-color: lightgreen;
+}
+
+header h1 {
+  color: darkblue;
+  font-style: italic;
+  font-size: 15mm;
+  text-align: center;
+  word-spacing: 35px;
+  letter-spacing: 5px;
+}
+
+h2 {
+  color: black;
+  font-size: 10mm;
+  font-weight: bold;
+}
+
+h3 {
+  color: darkblue;
+  font-size: 12mm;
+  font-weight: lighter;
+  border-color: darkblue;
+  border-width: 10px;
+  border-style: inset;
+  border-radius: 10%;
+  background-color: white;
+  height: 120px;
+}
+
+h4 {
+  color: black;
+  font-size: 5.5mm;
+  font-weight: bold;
+}
+
+h5 {
+  color: orangered;
+  font-size: 6mm;
+  font-weight: bold;
+}
+
+section {
+  font-size: 15px;
+}
+
+#subtitulo {
+  font-size: 7mm;
+  text-align: center;
+}
+
+#input {
+  width: 10cm;
+  height: 1cm;
+  font-size: 0.5cm;
+}
+
+#bodySubpaginas {
+  text-align: center;
+  font-size: 4.5mm;
+  font-weight: bold;
+}
+
+span {
+  display: inline-block;
+  width: 200px;
+  padding: 30px 50px;
+}
+
+div {
+  font-size: 3.5mm;
+}
+
+@-webkit-keyframes aparecer {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+.row {
+  background-color: aqua;
+  border: 1px solid black;
+  height: 5mm;
+}
+
+.boton {
+  height: 40px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+  display: inline-block;
+  background-color: #ED1C2E;
+  margin: 10px 20px;
+  padding: 10px 10px 20px 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  cursor: pointer;
+  line-height: 1.42857143;
+  text-align: center;
+  border-radius: 25%;
+  -webkit-transform: scale(1.5, 1.5);
+          transform: scale(1.5, 1.5);
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  max-width: 2000px;
+}
+
+.box_box {
+  padding: 0px 20px;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 300px 300px;
+      grid-template-columns: 300px 300px;
+  -ms-grid-rows: 50px 50px;
+      grid-template-rows: 50px 50px;
+  margin: 0px 500px 0px 300px;
+}
+
+.content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 300px 300px;
+      grid-template-columns: 300px 300px;
+  -ms-grid-rows: 50px 50px;
+      grid-template-rows: 50px 50px;
+  font-size: 3.5mm;
+  padding: 20px 0px 0px 20px;
+  border: 1px solid black;
+  font-weight: 550;
+  color: #ad0000;
+  text-align: center;
+}
+
+.box {
+  border: 1px solid black;
+  padding: 20px 0px 0px 20px;
+  font-size: 4.5mm;
+}
+
+#lista {
+  list-style-type: inherit;
+  list-style-position: outside;
+  font-size: 5mm;
+}
+
+#listaB {
+  font-size: 5.5mm;
+  background-color: lightslategray;
+  border: 5px solid;
+}
+
+table {
+  border: 3px solid;
+  display: table;
+  border-collapse: separate;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-indent: initial;
+  vertical-align: middle;
+  text-align: left;
+  font-size: 15px;
+  font-family: "Orelega One";
+  font-size: 5mm;
+  margin: 100px 30px 10px 420px;
+  padding: 10px 20px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(yellow), to(red));
+  background-image: linear-gradient(yellow, red);
+  -webkit-transform: rotateX(20deg);
+          transform: rotateX(20deg);
+}
+/*# sourceMappingURL=style.css.map */
