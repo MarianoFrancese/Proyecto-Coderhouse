@@ -18,6 +18,22 @@
   border-color: black;
 }
 
+.bodyContraste {
+  border-width: 5px;
+  border-style: inset;
+  border-radius: 3%;
+  background-color: lightcyan;
+  border-color: black;
+}
+
+.bodyIndex {
+  border-width: 5px;
+  border-style: inset;
+  border-radius: 1%;
+  background-color: #f5d08b;
+  border-color: black;
+}
+
 body {
   font-family: cursive;
   font-weight: bolder;
