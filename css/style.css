@@ -10,12 +10,24 @@
   border-color: crimson;
 }
 
-.footerPaginas {
+.footerNosotros {
   border-width: 10px;
   border-style: inset;
   border-radius: 10%;
   background-color: lightyellow;
   border-color: black;
+  width: 1300px;
+  margin: 0px 0px 0px 50px;
+}
+
+.footerServicios {
+  border-width: 10px;
+  border-style: inset;
+  border-radius: 10%;
+  background-color: lightyellow;
+  border-color: black;
+  width: 1300px;
+  margin: 0px 0px 0px 50px;
 }
 
 .bodyContraste {
@@ -24,20 +36,22 @@
   border-radius: 3%;
   background-color: lightcyan;
   border-color: black;
+  width: 1300px;
+  margin: 0px 0px 0px 50px;
 }
 
 .bodyIndex {
   border-width: 5px;
   border-style: inset;
   border-radius: 1%;
-  background-color: #f5d08b;
+  background-color: lightgray;
   border-color: black;
 }
 
 body {
   font-family: cursive;
   font-weight: bolder;
-  background-color: lightgreen;
+  background-color: turquoise;
 }
 
 header h1 {
@@ -216,7 +230,7 @@ div {
 
 #listaB {
   font-size: 5.5mm;
-  background-color: lightslategray;
+  background-color: #ebc9ce;
   border: 5px solid;
 }
 

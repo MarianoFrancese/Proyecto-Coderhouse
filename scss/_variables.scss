@@ -31,12 +31,24 @@ $border-color: crimson;
     height: $height;
 }
 
-.footerPaginas {
+.footerNosotros {
     border-width: 10px;
     border-style: inset;
     border-radius: 10%;
     background-color:lightyellow;
     border-color: black;
+    width: 1300px;
+    margin: 0px 0px 0px 50px;
+}
+
+.footerServicios {
+    border-width: 10px;
+    border-style: inset;
+    border-radius: 10%;
+    background-color:lightyellow;
+    border-color: black;
+    width: 1300px;
+    margin: 0px 0px 0px 50px;
 }
 
 .bodyContraste {
@@ -45,12 +57,14 @@ $border-color: crimson;
     border-radius: 3%;
     background-color:lightcyan;
     border-color:black;
+    width: 1300px;
+    margin: 0px 0px 0px 50px;
 }
 
 .bodyIndex {
     border-width: 5px;
     border-style: inset;
     border-radius: 1%;
-    background-color:rgb(245, 208, 139);
+    background-color:lightgray;
     border-color:black;
 }
